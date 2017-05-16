@@ -11,7 +11,7 @@ email: dengqi935@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   Don't need any description.
   無需介紹。
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "//" # the subpath of your site, e.g. /blog
 url: "http://blog.dengqi.org" # the base hostname & protocol for your site
 twitter_username:  chenhaobaba
 github_username:  nerdneilsfiled 
