@@ -1,0 +1,40 @@
+/*
+Error: Invalid CSS after "@charset "utf-8"": expected "{", was ";"
+        on line 4 of main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: @charset "utf-8";
+5: 
+6: 
+7: 
+8: // Our variables
+9: $base-font-family:  Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+Backtrace:
+main.scss:4
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1132:in `tok!'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:665:in `block'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:658:in `ruleset'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:674:in `block_contents'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:41:in `parse'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/usr/lib/ruby/gems/2.4.0/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:22:in `load'
+/usr/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \"utf-8\"\": expected \"{\", was \";\"\A         on line 4 of main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @charset \"utf-8\";\A 5: \A 6: \A 7: \A 8: // Our variables\A 9: $base-font-family:  Helvetica, \"Helvetica Neue\", Arial, sans-serif;"; }
